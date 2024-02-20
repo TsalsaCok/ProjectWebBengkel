@@ -1,0 +1,200 @@
+{23:37:32.827} INFO: [Game]   > System locale is 'En'
+{23:37:32.827} INFO: [Game]   > Speech locale is 'En'
+{23:37:32.834} INFO: [System] > Build version: 6.2016.0912.1525
+{23:37:32.834} INFO: [System] > [PID] 13788
+{23:37:32.873} INFO: [System] > [CPU] vendor: GenuineIntel, features: SSSE3 SSE4.1 SSE4.2 AVX AVX2 F16C FMA CX16 POPCNT LZCNT BMI1 BMI2 HTT, clock frequency: 2496.01MHz
+{23:37:32.873} INFO: [System] > [CPU] CPUs: 1, Cores: 4, HT: Yes, Logical processors: 8
+{23:37:32.888} INFO: [JobManager] > TM976f1cfd, dedicated worker threads: 1 + 5, num cpus: 8
+{23:37:32.894} INFO: [ODE]        > [ode::dInitialize] SSE path
+{23:37:32.913} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{23:37:32.913} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{23:37:32.970} INFO: [Renderer]   > Adapter 1: NVIDIA GeForce GTX 1650 3937MB/8110MB/0MB
+{23:37:32.970} INFO: [Renderer]   |   Output 0: [0,0 - 1920,1080] \\.\DISPLAY1
+{23:37:32.971} INFO: [Renderer]   > Adapter 2: Intel(R) UHD Graphics 128MB/8110MB/0MB
+{23:37:32.972} INFO: [Renderer]   > Adapter 3: Microsoft Basic Render Driver 0MB/8110MB/0MB
+{23:37:33.526} INFO: [Renderer]   > Renderer started in DX11 mode.
+{23:37:33.616} INFO: [Renderer]   > DDraw reported 4,088M free texture memory.
+{23:37:33.623} INFO: [Renderer]   > [CheckSLI] Single GPU system
+{23:37:33.624} INFO: [Renderer]   > Renderer: supported display modes:
+{23:37:33.624} INFO: [Renderer]   |  640x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  640x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  800x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  800x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  800x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  800x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1024x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1024x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1152x864, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1152x864, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1152x864, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1152x864, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x720, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x720, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x800, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x800, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x800, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x800, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x960, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x960, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1280x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1360x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1360x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1366x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1366x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1400x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1400x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1400x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1400x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1440x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1440x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.624} INFO: [Renderer]   |  1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1600x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1600x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1680x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1680x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1920x1080, bpp:24, hz:144.00, fmt: A8R8G8B8
+{23:37:33.625} INFO: [Renderer]   |  1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{23:37:33.627} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{23:37:33.627} INFO: [Renderer]   > WindowOffset 0 0
+{23:37:33.672} DEBG: [DXGI]       > WM_SIZE 0, 1920x1067
+{23:37:33.672} INFO: [INFO]       > CGame::AppWindowInit: window client area: 0x0, 1920x1067
+{23:37:33.672} DEBG: [DXGI]       > [RChangeDeviceState] 1920x1080, fullscreen, 342060000/2375360 Hz
+{23:37:33.672} DEBG: [DXGI]       >                  was 0x0, fullscreen, 0/0 Hz
+{23:37:33.999} DEBG: [DXGI]       > WM_WINDOWPOSCHANGING 1920x1080
+{23:37:33.999} DEBG: [DXGI]       > WM_WINDOWPOSCHANGING overridden to 1920x1080
+{23:37:34.003} DEBG: [DXGI]       > WM_SIZE 0, 1920x1080
+{23:37:34.003} DEBG: [DXGI]       > [RWinOnWmSize] requested 1920x1080
+{23:37:34.003} DEBG: [DXGI]       > [RWinOnWmSize] swapchain was 1920x1080 fullscreen
+{23:37:34.007} DEBG: [DXGI]       > [RWinOnWmSize] swapchain changed to 1920x1080 fullscreen
+{23:37:34.020} INFO: [TexMgr]     > Max texture dimensions: 16384x16384x2048
+{23:37:34.023} INFO: [MatMgr]     > Number of supported techniques: 61
+{23:37:34.137} INFO: [MatMgr]     > Material pack 'optimized_dx11.mp' loaded.
+{23:37:34.234} INFO: [INFO]       > Texture streaming buffer set to 2000MB
+{23:37:34.236} INFO: [Video]      > //Video settings:
+{23:37:34.236} INFO: [Video]      > Resolution(1920,1080)
+{23:37:34.236} INFO: [Video]      > Fullscreen()
+{23:37:34.236} INFO: [Video]      > Monitor(0)
+{23:37:34.236} INFO: [Video]      > TextureQuality("High")
+{23:37:34.236} INFO: [Video]      > VisRange(2.00, 2.00)
+{23:37:34.236} INFO: [Video]      > ShadowMapSize(2048)
+{23:37:34.236} INFO: [Video]      > SpotShadowMapSize(2048)
+{23:37:34.236} INFO: [Video]      > GammaFloat(1.00)
+{23:37:34.236} INFO: [Video]      > FXQuality(3)
+{23:37:34.236} INFO: [Video]      > GrassQuality(0)
+{23:37:34.236} INFO: [Video]      > VSync()
+{23:37:34.236} INFO: [Video]      > AmbientOcclusion(1)
+{23:37:34.236} INFO: [Video]      > MotionBlur(1)
+{23:37:34.236} INFO: [Video]      > AntiAliasing(1)
+{23:37:34.236} INFO: [Video]      > DisableDWM(1)
+{23:37:34.236} INFO: [Video]      > EnableFilmGrain(1)
+{23:37:34.236} INFO: [Video]      > Aberration(1)
+{23:37:34.236} INFO: [Video]      > Version(1)
+{23:37:34.236} INFO: [INFO]       > >>>>> Audio init
+{23:37:34.337} INFO: [INFO]       > FMOD::Driver: Headphones (Realtek(R) Audio)
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_MULTICHANNEL
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM8
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM16
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM24
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM32
+{23:37:34.361} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCMFLOAT
+{23:37:35.176} INFO: [INFO]       > FMOD is using (8) output type.
+{23:37:35.176} INFO: [INFO]       > FMOD Software Format Info:
+{23:37:35.176} INFO: [INFO]       | 	Out Sample Rate: <192000>
+{23:37:35.176} INFO: [INFO]       | 	Format: <5>
+{23:37:35.176} INFO: [INFO]       | 	Out Channels: <8>
+{23:37:35.176} INFO: [INFO]       | 	Max Input Channels: <8>
+{23:37:35.176} INFO: [INFO]       | 	Bits: <32>
+{23:37:35.176} INFO: [INFO]       > FMOD Mixer blocksize        = 5.33 ms
+{23:37:35.176} INFO: [INFO]       > FMOD Mixer blocks count     = 16
+{23:37:35.176} INFO: [INFO]       > FMOD Mixer Total buffer size = 85.33 ms
+{23:37:35.176} INFO: [INFO]       > FMOD Mixer Average Latency  = 77.33 ms
+{23:37:35.178} INFO: [Audio]      > //Audio settings:
+{23:37:35.178} INFO: [Audio]      > API("FMOD")
+{23:37:35.178} INFO: [Audio]      > MixFrequency(48000)
+{23:37:35.178} INFO: [Audio]      > Channels(40)
+{23:37:35.178} INFO: [Audio]      > Quality3D("high")
+{23:37:35.178} INFO: [Audio]      > MaxVolume(40)
+{23:37:35.178} INFO: [Audio]      > FXVolume(30)
+{23:37:35.178} INFO: [Audio]      > WaveVolume(19)
+{23:37:35.178} INFO: [Audio]      > SpeechVolume(40)
+{23:37:35.178} INFO: [Audio]      > MovieVolume(30)
+{23:37:35.178} INFO: [Audio]      > MovieVolumeSource(0)
+{23:37:35.178} INFO: [Audio]      > GlobalSettings("")
+{23:37:35.178} INFO: [Audio]      > ReverbChannels(1)
+{23:37:35.178} INFO: [Audio]      > MixerBlocksCount(0)
+{23:37:35.178} INFO: [Audio]      > 
+{23:37:35.178} INFO: [ResPack]    > Free resource loading disabled
+{23:37:36.036} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Keyboard, product_name = Keyboard, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{23:37:36.078} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Keyboard, Keyboard
+{23:37:36.182} INFO: [INFO]       > [SDL::InitSDL] InitSDL successed!
+{23:44:47.051} ERRR: [CTCParse]   > unknown keyword turnoffdistance: in file '' in line 159
+{23:44:47.051} ERRR: [CTCParse]   > TurnOffDistance()
+{23:44:47.051} ERRR: [CTCParse]   > [Parser_GetTreeFromMemory] Cannot parse memory buffer!
+{23:44:47.051} ERRR: [CTCParse]   > unknown keyword turnoffdistance: in file '' in line 147
+{23:44:47.051} ERRR: [CTCParse]   > TurnOffDistance()
+{23:44:47.051} ERRR: [CTCParse]   > [Parser_GetTreeFromMemory] Cannot parse memory buffer!
+{23:44:47.051} ERRR: [CTCParse]   > unknown keyword turnoffdistance: in file '' in line 155
+{23:44:47.051} ERRR: [CTCParse]   > TurnOffDistance()
+{23:44:47.051} ERRR: [CTCParse]   > [Parser_GetTreeFromMemory] Cannot parse memory buffer!
+{23:47:22.459} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_forearmr.msh'
+{23:47:22.526} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_legr.msh'
+{23:47:22.659} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_upperarmr.msh'
+{23:47:22.659} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_legl.msh'
+{23:47:23.242} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_forearmr.msh'
+{23:47:23.276} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_legl.msh'
+{23:47:23.325} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_legr.msh'
+{23:47:23.976} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_a_upperarmr.msh'
+{23:47:24.025} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_forearmr.msh'
+{23:47:24.026} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_legr.msh'
+{23:47:24.109} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_legl.msh'
+{23:47:24.126} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_upperarmr.msh'
+{23:47:24.242} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_forearml.msh'
+{23:50:02.657} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_legr.msh'
+{23:50:28.890} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_forearmr.msh'
+{23:50:51.172} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'man_soldier_c_forearml.msh'
+{23:55:14.096} INFO: [INFO]       > ---------------------------------------------------------
+{23:55:14.096} INFO: [INFO]       > Time of playing game: 1061.244629s
+{23:55:14.096} INFO: [INFO]       > Updated frames: 57671 Rendered frames: 57299
+{23:55:14.096} INFO: [INFO]       > Average FPS: 53.992264
+{23:55:14.096} INFO: [INFO]       > ---------------------------------------------------------
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_buttons.dds> engine_id=<btn_cornerLT> script_id=<11> m_rRect=<0.000000,0.000000,58.000000,64.000000> m_iRefCount=1]
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_frames.dds> engine_id=<btn_cornerLT_sel> script_id=<11> m_rRect=<0.000000,0.000000,64.000000,64.000000> m_iRefCount=1]
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_buttons.dds> engine_id=<btn_cornerRT> script_id=<11> m_rRect=<199.000000,0.000000,256.000000,64.000000> m_iRefCount=1]
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_frames.dds> engine_id=<btn_cornerRT_sel> script_id=<11> m_rRect=<192.000000,0.000000,256.000000,64.000000> m_iRefCount=1]
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_buttons.dds> engine_id=<btn_top> script_id=<11> m_rRect=<58.000000,0.000000,198.000000,64.000000> m_iRefCount=1]
+{23:55:14.156} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 1 [file_name=<menu_frames.dds> engine_id=<btn_top_sel> script_id=<11> m_rRect=<64.000000,0.000000,191.000000,64.000000> m_iRefCount=1]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_buttons.dds> engine_id=<btn_cornerLT> script_id=<3> m_rRect=<0.000000,0.000000,58.000000,64.000000> m_iRefCount=6]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_frames.dds> engine_id=<btn_cornerLT_sel> script_id=<3> m_rRect=<0.000000,0.000000,64.000000,64.000000> m_iRefCount=6]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_buttons.dds> engine_id=<btn_cornerRT> script_id=<3> m_rRect=<199.000000,0.000000,256.000000,64.000000> m_iRefCount=6]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_frames.dds> engine_id=<btn_cornerRT_sel> script_id=<3> m_rRect=<192.000000,0.000000,256.000000,64.000000> m_iRefCount=6]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_buttons.dds> engine_id=<btn_top> script_id=<3> m_rRect=<58.000000,0.000000,198.000000,64.000000> m_iRefCount=6]
+{23:55:14.181} ERRR: [ERRR]       > [CUITextureManager::Destroy] referenced texture definition 6 [file_name=<menu_frames.dds> engine_id=<btn_top_sel> script_id=<3> m_rRect=<64.000000,0.000000,191.000000,64.000000> m_iRefCount=6]
+{23:55:14.769} INFO: [Renderer]   > [r_Shutdown] Dll released

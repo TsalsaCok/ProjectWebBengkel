@@ -1,0 +1,41 @@
+!Resolution(i,i)
+!WindowOffset(i,i)
+!Monitor(i)                    // -1 primary monitor
+!TextureQuality(s)             // Low, Medium, High
+!GammaFloat(f)
+!Shadows(s)                    // Low, High
+!ShadowMapSize(i)
+!SpotShadowMapSize(i)
+!Fullscreen()
+!VSync()                       // enable vertical sync
+!GrassQuality(i)               // lower is better
+!ExtraGameFov(f)               // extra fov
+!FXQuality(i)          // higher is better
+!VisRange(f,f)
+!OculusEnabled()               // enable support for Oculus
+!AmbientOcclusion(i)           // 1 - enable; 0 - disable
+!MotionBlur(i)                 // 1 - enable; 0 - disable
+!AntiAliasing(i)               // 1 - enable; 0 - disable
+!DisableDWM(i)                 // disables DWM when fullscreen
+!EnableFilmGrain(i)            // 1 - enable; 0 - disable
+!Aberration(i)                 // 1 - enable; 0 - disable chromatic aberration
+!Version(i)
+
+Resolution(1920,1080)
+Fullscreen()
+Monitor(0)
+TextureQuality("High")
+VisRange(2.00, 2.00)
+ShadowMapSize(2048)
+SpotShadowMapSize(2048)
+GammaFloat(1.25)
+FXQuality(3)
+GrassQuality(0)
+VSync()
+AmbientOcclusion(1)
+MotionBlur(1)
+AntiAliasing(1)
+DisableDWM(1)
+EnableFilmGrain(1)
+Aberration(1)
+Version(1)
