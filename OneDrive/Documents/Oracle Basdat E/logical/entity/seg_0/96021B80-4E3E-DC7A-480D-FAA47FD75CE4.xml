@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96021B80-4E3E-DC7A-480D-FAA47FD75CE4" name="Kategori">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:30:47 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kategori" id="F2D817B1-8EBB-6FBA-4EC8-1454B2B3EE63">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:31:30 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kategori" id="45DF88E7-4679-92E1-C5D8-6905F00A5F15">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:31:47 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D18E52D0-9C66-2079-3F6C-03B1A03B8890" name="smartphone">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:15:51 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_smartphone" id="DCEF3AF4-E4BC-9057-4332-078805CBF235">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:16:54 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_smartphone" id="CEA926BE-53F5-5F99-0C2A-14D2D268F4B6">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:18:05 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="E05DCAA9-4324-A23B-0EB0-D0653403C3E2">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:19:16 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok tersedia" id="04926933-47EF-7577-F578-5AC37E640EF9">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:20:56 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

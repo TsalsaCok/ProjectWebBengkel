@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B5F66F7-8E4A-7845-D3B9-221D85AEEA68" name="laptop">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:16:19 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Produk" id="BCB25835-81A8-8ED8-98AA-965D54AD3B55">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:21:38 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_produk" id="62BE5C53-8979-C2D0-601E-14FF91283228">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:22:24 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="028E8537-8F34-5744-4E61-430181048D18">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:22:48 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok_tersedia" id="2E30A1A1-8E98-9306-12B2-A30A83CE9612">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-20 01:22:55 UTC</createdTime>
+<ownerDesignName>Oracle Basdat E</ownerDesignName>
+<engineerTo>
+<item key="4236028C-BB4B-3FD5-3B84-0B56F9459FC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
