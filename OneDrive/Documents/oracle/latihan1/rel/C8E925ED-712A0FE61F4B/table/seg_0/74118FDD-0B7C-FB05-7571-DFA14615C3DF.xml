@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74118FDD-0B7C-FB05-7571-DFA14615C3DF" name="merek">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>7347C719-B63F-3649-95A3-1F0D5B32C65B</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_merek" id="026B53C4-C1E2-D29A-B770-9EE9B52488F5">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>A874BCD3-8419-FA28-A58E-C2686D4AB182</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_merek" id="C106E5B5-748A-18CB-F2B2-DDB622A120ED">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>B71BAB0B-C1B9-66C5-4CFD-B493C42D40BF</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="212F3C4E-BE4D-CAA3-9B04-050011EB760E" name="merek_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>F1C2A8A4-8B5D-E2A3-4EAD-C366EAEB6807</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026B53C4-C1E2-D29A-B770-9EE9B52488F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39C16F3C-1B81-60DF-AAAA-808DBFC03871" name="merek_nama_merek_UN">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>1843C7E6-A455-C51F-2D7F-062CBACF702F</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C106E5B5-748A-18CB-F2B2-DDB622A120ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

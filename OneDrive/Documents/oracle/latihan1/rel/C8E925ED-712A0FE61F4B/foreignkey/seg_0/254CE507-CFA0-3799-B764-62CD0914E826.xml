@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="254CE507-CFA0-3799-B764-62CD0914E826" containerWithKeyObject="77C52247-7E2E-6C63-3157-DC2EC2CC3C34" localFKIndex="C11E20CA-583D-71ED-EDB3-5076A2FDCFA5" name="ban_dalam_kategori_produk_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>EE91C90E-231C-187D-0664-4BC72318153D</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<referredTableLongName>kategori_produk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A527C82-44F2-D337-50D2-2A762F4CD52A</referredTableID>
+<keyObject>4B96E846-5080-05B0-7D32-E4768416D0DD</keyObject>
+<referredKeyID>4B96E846-5080-05B0-7D32-E4768416D0DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kategori</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

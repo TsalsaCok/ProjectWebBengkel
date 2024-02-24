@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54D19546-B72A-F433-3023-28979A705941" name="GearSet">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>C41D4BC0-3EDD-671C-BF69-F3C072A85BB5</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="80488B66-5B07-6855-F622-318EA0E1C14B">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>CEDAFD90-4E6C-DA86-3A8A-150CCEEAC4C1</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok_barang" id="A57DCBBB-A9D5-EC9B-40C7-50A9B2774BE6">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>53401509-F235-539B-FA0D-347DE666DB8B</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merek" id="919D5F25-3999-1B1C-CF5B-330D2330A0FF">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>32F44437-6D06-B792-95AC-A04281596359</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_beli" id="EEC374B1-EF02-2A92-4F88-1C90DB56C414">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>93A0236A-836B-0416-BC83-100C50FA068D</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_jual" id="08DF1E1F-B600-A2DC-8BAB-68B37387FDD5">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>CBD099D2-39F8-1807-3347-00A50E97301F</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategori_produk_id_kategori" id="29660A08-3799-8126-AB40-268DE48DCD2C">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>E623C9B8-ECFD-96A1-7746-CCBBBF73181F</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5230AA48-12EC-BCD0-4A47-BC4FF5CAA462" referredColumn="3C1E4334-7BB9-DB85-B2D8-0C7793B25471"/>
+</associations>
+</Column>
+<Column name="merek_id_merek" id="DE1F34A3-004A-F142-0B20-16C83042D2CD">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>7F08D28B-3C35-9B50-A46B-01249C09D38F</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5AE8031-9BE1-CF7A-E85C-BCF7B6BCF556" referredColumn="026B53C4-C1E2-D29A-B770-9EE9B52488F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC8A473D-5411-7981-77BC-2630B538CCFA" name="GearSet_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>2F7B2D29-86FB-D5AC-269F-1A437644AA66</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80488B66-5B07-6855-F622-318EA0E1C14B"/>
+<colUsage columnID="DE1F34A3-004A-F142-0B20-16C83042D2CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D03E93B0-DFA2-DFA8-7A38-992396A6D80B" name="GearSet_kategori_produk_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>9A8D109B-DE70-DD91-2E62-7597420CD1AF</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29660A08-3799-8126-AB40-268DE48DCD2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEB96EBE-29EB-B512-080F-D07240A1C213" name="GearSet_merek_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>9B7B0FE2-052C-60B3-262F-ED3E276B996A</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1F34A3-004A-F142-0B20-16C83042D2CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="472887AB-3787-D91A-0CCB-BC3124740940" name="spion">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:18:33 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produk" id="EC0CC43B-61A6-530C-91CC-51727D3BCF7E">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:20:00 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok_barang" id="DB338D71-85B1-9F78-1FCE-1F4AF2783F79">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:20:12 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="merek" id="EF656A7B-B6FD-02F7-4EFF-E0A23EEE7B3C">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:20:58 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_beli" id="3BE622E3-7ABD-8996-24C8-6C16E94496D8">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:21:16 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_jual" id="CB6A2B3D-B71E-F655-A003-7A32E0843E6C">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:21:28 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="F93E67FC-4BCD-05A4-53E3-DBCADC51E17B">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:31:33 UTC</createdTime>
+<generatorID>31AB1C63-B8B2-4C0C-EEF7-D30AEF4A255B</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<referedAttribute>4BC10B9A-BA61-1C6B-2F12-4CF3DD0DF6A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_merek" id="B772BD57-BA10-A4F2-FB27-CD284D6B7EF9">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:11 UTC</createdTime>
+<generatorID>D71D1299-A773-87E8-411E-458DE4B5E1FA</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<referedAttribute>A874BCD3-8419-FA28-A58E-C2686D4AB182</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2A1E463-C7D2-6B13-66B2-1532798EE2BD" name="spion pk">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:24:05 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EC0CC43B-61A6-530C-91CC-51727D3BCF7E,31AB1C63-B8B2-4C0C-EEF7-D30AEF4A255B,D71D1299-A773-87E8-411E-458DE4B5E1FA</newElementsIDs>
+<usedAttributes>
+<attributeRef>EC0CC43B-61A6-530C-91CC-51727D3BCF7E</attributeRef>
+<attributeRef>F93E67FC-4BCD-05A4-53E3-DBCADC51E17B</attributeRef>
+<attributeRef>B772BD57-BA10-A4F2-FB27-CD284D6B7EF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

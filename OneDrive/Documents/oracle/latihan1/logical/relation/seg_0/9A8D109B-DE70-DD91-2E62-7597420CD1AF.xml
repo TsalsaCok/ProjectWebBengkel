@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kategori_GearSet fk" directorySegmentName="seg_0" id="9A8D109B-DE70-DD91-2E62-7597420CD1AF">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:31:07 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<sourcePk>34AFA0CE-7CF8-1219-D623-64C56F799287</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1307441-2509-024B-0118-A25F656A6213</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C41D4BC0-3EDD-671C-BF69-F3C072A85BB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

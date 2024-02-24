@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kategori_olii fk" directorySegmentName="seg_0" id="02891C47-BD2F-7380-2426-5E14E7C62413">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:28:48 UTC</createdTime>
+<ownerDesignName>latihan1</ownerDesignName>
+<engineerTo>
+<item key="C8E925ED-1104-F518-6526-712A0FE61F4B" value="true"/>
+</engineerTo>
+<sourcePk>34AFA0CE-7CF8-1219-D623-64C56F799287</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1307441-2509-024B-0118-A25F656A6213</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97E958C5-7FC9-CD15-E7CA-DEE889E54099</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

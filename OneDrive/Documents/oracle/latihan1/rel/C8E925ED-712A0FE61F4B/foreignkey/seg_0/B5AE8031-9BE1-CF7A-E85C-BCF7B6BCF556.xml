@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5AE8031-9BE1-CF7A-E85C-BCF7B6BCF556" containerWithKeyObject="54D19546-B72A-F433-3023-28979A705941" localFKIndex="FEB96EBE-29EB-B512-080F-D07240A1C213" name="GearSet_merek_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>9B7B0FE2-052C-60B3-262F-ED3E276B996A</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<referredTableLongName>merek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74118FDD-0B7C-FB05-7571-DFA14615C3DF</referredTableID>
+<keyObject>212F3C4E-BE4D-CAA3-9B04-050011EB760E</keyObject>
+<referredKeyID>212F3C4E-BE4D-CAA3-9B04-050011EB760E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_merek</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

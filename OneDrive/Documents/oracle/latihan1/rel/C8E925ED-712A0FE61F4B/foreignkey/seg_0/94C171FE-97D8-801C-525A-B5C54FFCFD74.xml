@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94C171FE-97D8-801C-525A-B5C54FFCFD74" containerWithKeyObject="77C52247-7E2E-6C63-3157-DC2EC2CC3C34" localFKIndex="85F9DF26-2CD3-206D-05A6-45314EFEC88A" name="ban_dalam_merek_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>5AF64D68-D0A6-3A96-24CE-7EB12F61C5C4</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<referredTableLongName>merek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74118FDD-0B7C-FB05-7571-DFA14615C3DF</referredTableID>
+<keyObject>212F3C4E-BE4D-CAA3-9B04-050011EB760E</keyObject>
+<referredKeyID>212F3C4E-BE4D-CAA3-9B04-050011EB760E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_merek</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

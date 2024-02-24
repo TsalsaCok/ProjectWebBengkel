@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0D6A030-CC00-CF4B-D635-0DA975C19AC0" name="oli">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>97E958C5-7FC9-CD15-E7CA-DEE889E54099</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="40F9B714-FEB4-3EAB-CDE4-DE081E99E242">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>6D57D5E4-6C4D-6004-6DA9-BD9019C1F978</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok_barang" id="8CFA5803-D3C0-4F9D-060B-32401534DAFF">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>9F94C2FA-25D9-756C-80CD-F281F9581572</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merek" id="A401544A-41A1-8660-6BAB-6E8986B6C88B">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>0DCE8275-78DC-F13B-6577-85851EFF5ACE</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_beli" id="293D1D41-5389-CB6E-7540-42AD92DBA17E">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>48AC0D28-AC3E-46C3-1F9C-67B521CC14B8</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_jual" id="F9AF270B-A957-2F28-9C13-9797BD7BC6EB">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>3F6907F1-E9E9-883B-23A2-E67E5FD39DFF</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategori_produk_id_kategori" id="85B38328-AF86-721E-576D-64BF86A56257">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>D8CB6BD7-F57E-1F5D-53C3-45E4C68E54D7</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82EA02D0-418A-A987-C20A-CA03F84910E0" referredColumn="3C1E4334-7BB9-DB85-B2D8-0C7793B25471"/>
+</associations>
+</Column>
+<Column name="merek_id_merek" id="46C69727-0F2E-2F7D-D0E7-4F4C3386B247">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>E663772F-4AD4-1EDC-BD87-3CAED677B799</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DE33B08-B895-3402-D643-E659515F2AF0" referredColumn="026B53C4-C1E2-D29A-B770-9EE9B52488F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B9A47EA-0C8A-59A9-FD5A-ECB4783079AC" name="oli_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>982B0FD1-A0FC-373D-45F3-3D2DB1B7287C</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40F9B714-FEB4-3EAB-CDE4-DE081E99E242"/>
+<colUsage columnID="85B38328-AF86-721E-576D-64BF86A56257"/>
+<colUsage columnID="46C69727-0F2E-2F7D-D0E7-4F4C3386B247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06232E7A-D085-FB58-CDDD-4AFF038B5A4B" name="oli_kategori_produk_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>02891C47-BD2F-7380-2426-5E14E7C62413</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85B38328-AF86-721E-576D-64BF86A56257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39CDFED4-3BD1-0059-BE1D-88B0A133702D" name="oli_merek_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-24 05:34:52 UTC</createdTime>
+<generatorID>E5055B55-3034-CCB7-8314-C870D87442F0</generatorID>
+<ownerDesignName>latihan1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46C69727-0F2E-2F7D-D0E7-4F4C3386B247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
