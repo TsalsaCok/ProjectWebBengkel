@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16BB24D1-DC83-1E12-4BCC-0D582681984D" name="transaksi">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:24:18 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transaksi" id="6EC86A42-7634-06DB-ABF2-EED18AB96144">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:25:43 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_transaksi" id="30F0DCD8-6AD3-12A2-4194-83FF374737D6">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:26:09 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="4C7330BE-94AD-E136-E65D-65B8EBFFFC3D">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:26:25 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_konsumen" id="ECC0FDC9-D3DE-4264-76B3-6362DE72B118">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:36 UTC</createdTime>
+<generatorID>2D7EC624-016A-EBD9-E272-8A1CC30903F7</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<referedAttribute>7BFF7E90-9900-CCC2-2FE0-E9DE938E7395</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="58883DF5-FAA5-92BF-475C-4740FC89C9AA">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:43 UTC</createdTime>
+<generatorID>755688A8-08F4-B3C8-C237-EE630639C982</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<referedAttribute>793AC670-FFA9-9309-9B3B-F534A23B8E65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produk" id="86A3313E-AB66-FC2C-8D7B-25E60519781D">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:50 UTC</createdTime>
+<generatorID>C3B65989-5DFE-B990-7578-A2401BD37957</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<referedAttribute>BDC74636-3F82-0349-CA7E-076F2F1CC943</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="001D375E-7ADC-1FB8-8AC5-A5256BBC26C8" name="transaksi PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:39 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EC86A42-7634-06DB-ABF2-EED18AB96144</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2584B8A1-D50B-CF9E-0EA0-9DA62374867F" name="pelayan_toko">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>E4291414-5265-583C-E90B-A8CB9AA9C4E7</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama" id="5722E7C1-5C5A-6887-BBB9-18AD93B14E17">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>793AC670-FFA9-9309-9B3B-F534A23B8E65</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="7EE22A52-9D2A-11EA-C9A2-6149DFC8D7CA">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>EF929A80-212B-9705-9FA7-7D43FF90DDA8</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="81A571EF-D289-2DC4-40F0-DBAC1D95AFD9">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>B76B3D59-03C9-0E61-FCA4-649C79A9EA50</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pelayan_toko_ID" id="1E696657-A620-EF1F-58FF-6168BF016D19">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D2FFB42-0BA3-D0D4-ABB5-AF192B491183" name="pelayan_toko_PKv1">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>45716E69-C31B-5171-9BDF-D133D3883D3D</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5722E7C1-5C5A-6887-BBB9-18AD93B14E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA048363-7111-002A-7E91-CD6618A128A6" name="pelayan_toko_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1E696657-A620-EF1F-58FF-6168BF016D19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

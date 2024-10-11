@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="plyn_mlyani_konsumen" directorySegmentName="seg_0" id="755688A8-08F4-B3C8-C237-EE630639C982">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:03:46 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<sourcePk>45716E69-C31B-5171-9BDF-D133D3883D3D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>plyn melayani bnyk transaksi</nameOnSource>
+<nameOnTarget>transaksi hnya dilakukan 1  plyn</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4291414-5265-583C-E90B-A8CB9AA9C4E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16BB24D1-DC83-1E12-4BCC-0D582681984D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39674F9D-BB64-9211-E988-855F06F96ACB" name="konsumen">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:47:24 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_konsumen" id="7BFF7E90-9900-CCC2-2FE0-E9DE938E7395">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:47:52 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_konsumen" id="1A0492F7-ED82-3071-516D-856310D5CCD6">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:48:19 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umur" id="8825077E-FFD7-6078-E7FB-5BE2B65C22D3">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:49:57 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E69C792A-2922-8927-BFA1-2F6AEF74CB1E" name="konsumen PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:35 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BFF7E90-9900-CCC2-2FE0-E9DE938E7395</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

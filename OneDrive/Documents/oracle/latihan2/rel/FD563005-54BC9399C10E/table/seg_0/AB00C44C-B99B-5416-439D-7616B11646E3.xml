@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB00C44C-B99B-5416-439D-7616B11646E3" name="transaksi">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>16BB24D1-DC83-1E12-4BCC-0D582681984D</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaksi" id="D41D887A-35A7-EEBB-1018-83A920AC8299">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>6EC86A42-7634-06DB-ABF2-EED18AB96144</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tgl_transaksi" id="0C9FB47D-74EB-28E3-7B4C-A79FD92949E1">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>30F0DCD8-6AD3-12A2-4194-83FF374737D6</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="5E7D86F6-D88C-4AEE-E333-DB6B6CBA5A37">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>4C7330BE-94AD-E136-E65D-65B8EBFFFC3D</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produk_produk_ID" id="23D03E82-B09B-51A7-FE29-97B3B1E07BDC">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="konsumen_konsumen_ID" id="4EDFACFF-E191-32DF-E733-AA6EAABF182F">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pelayan_toko_pelayan_toko_ID" id="ECA3A507-A86F-516F-DA7F-A40A52B5A699">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_konsumen" id="342EF25D-1058-2446-0568-1E7E86EF7B9D">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>ECC0FDC9-D3DE-4264-76B3-6362DE72B118</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66E167D5-8D04-32A6-5407-C0B374B156C6" referredColumn="AFEA89B8-8ACE-5F20-5EFB-EAFB097B64FF"/>
+</associations>
+</Column>
+<Column name="nama" id="D2FD3091-D47C-1BD4-49EC-E7E59D36F6D7">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>58883DF5-FAA5-92BF-475C-4740FC89C9AA</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9523FEC-4805-2E5C-2B42-903CB7F52D5C" referredColumn="5722E7C1-5C5A-6887-BBB9-18AD93B14E17"/>
+</associations>
+</Column>
+<Column name="id_produk" id="ACA199A8-74B9-98A4-FB82-34A677B3B0ED">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>86A3313E-AB66-FC2C-8D7B-25E60519781D</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0D28BE5-1975-BB54-A37F-26C3D8B53513" referredColumn="0B235FB9-424A-3B02-54D7-D783965529E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC3E914E-C747-958C-69A6-8C658849DC54" name="transaksi_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>001D375E-7ADC-1FB8-8AC5-A5256BBC26C8</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D41D887A-35A7-EEBB-1018-83A920AC8299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04D81FBB-A6CF-B900-11F5-A6346132CEB9" name="transaksi_produk_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>C3B65989-5DFE-B990-7578-A2401BD37957</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACA199A8-74B9-98A4-FB82-34A677B3B0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="135C62F7-2E7B-AB8C-4786-6F28AAB7E201" name="transaksi_konsumen_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>2D7EC624-016A-EBD9-E272-8A1CC30903F7</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="342EF25D-1058-2446-0568-1E7E86EF7B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02CAA6F3-CA8A-81CA-76C9-B66FF7D505AD" name="transaksi_pelayan_toko_FK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>755688A8-08F4-B3C8-C237-EE630639C982</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2FD3091-D47C-1BD4-49EC-E7E59D36F6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

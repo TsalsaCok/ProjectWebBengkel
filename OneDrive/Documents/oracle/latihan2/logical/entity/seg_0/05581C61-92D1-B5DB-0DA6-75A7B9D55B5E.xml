@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05581C61-92D1-B5DB-0DA6-75A7B9D55B5E" name="produk">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:49:45 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produk" id="BDC74636-3F82-0349-CA7E-076F2F1CC943">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:49:56 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_produk" id="3B97C2B7-953D-C14A-B7E4-1943837AC7CB">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:21:15 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_beli" id="D46CD9D5-42A4-B5AA-1E20-8B795C235D29">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:50:41 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_jual" id="4D51F7DB-2170-8D24-5541-7B92C68D5BE7">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:50:17 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok" id="94F9AD7F-99B0-5049-4034-EB1C96B3EC63">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:22:19 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ED8EBF6-7B3D-C668-E0DF-6090B4031D97" name="produk PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:49 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDC74636-3F82-0349-CA7E-076F2F1CC943</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

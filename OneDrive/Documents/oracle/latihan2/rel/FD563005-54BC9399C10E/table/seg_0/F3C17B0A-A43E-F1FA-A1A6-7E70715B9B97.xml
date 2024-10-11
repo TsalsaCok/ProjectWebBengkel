@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3C17B0A-A43E-F1FA-A1A6-7E70715B9B97" name="produk">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>05581C61-92D1-B5DB-0DA6-75A7B9D55B5E</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="0B235FB9-424A-3B02-54D7-D783965529E7">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>BDC74636-3F82-0349-CA7E-076F2F1CC943</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_produk" id="9B0C71E7-8D14-1FE5-4781-07E749647557">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>3B97C2B7-953D-C14A-B7E4-1943837AC7CB</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_beli" id="EA496848-A75E-ACE0-3B0E-7A8AF483DDBE">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>D46CD9D5-42A4-B5AA-1E20-8B795C235D29</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_jual" id="1813E4C9-F4A6-8DCC-7158-8B6D615A6088">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>4D51F7DB-2170-8D24-5541-7B92C68D5BE7</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok" id="CE74AF81-E919-308B-DD60-1CCA6D2D1472">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<generatorID>94F9AD7F-99B0-5049-4034-EB1C96B3EC63</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produk_ID" id="941D3881-2A74-7D27-1D66-5FB0791F5D70">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69EA0E11-A043-42D7-B620-3D4819383EAF" name="produk_PKv1">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:53 UTC</createdTime>
+<generatorID>2ED8EBF6-7B3D-C668-E0DF-6090B4031D97</generatorID>
+<ownerDesignName>latihan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B235FB9-424A-3B02-54D7-D783965529E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FABC5BED-79BC-14F0-3596-9242239825F9" name="produk_PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 08:24:14 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="941D3881-2A74-7D27-1D66-5FB0791F5D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

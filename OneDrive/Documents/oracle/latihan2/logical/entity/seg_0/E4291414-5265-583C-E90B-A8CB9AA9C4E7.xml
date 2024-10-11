@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4291414-5265-583C-E90B-A8CB9AA9C4E7" name="pelayan_toko">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:53:36 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nama" id="793AC670-FFA9-9309-9B3B-F534A23B8E65">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 05:54:00 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="EF929A80-212B-9705-9FA7-7D43FF90DDA8">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:59:34 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="B76B3D59-03C9-0E61-FCA4-649C79A9EA50">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-02-26 07:59:44 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45716E69-C31B-5171-9BDF-D133D3883D3D" name="pelayan_toko PK">
+<createdBy>Sandy</createdBy>
+<createdTime>2024-03-25 17:48:42 UTC</createdTime>
+<ownerDesignName>latihan2</ownerDesignName>
+<engineerTo>
+<item key="FD563005-922E-C0EE-3B56-54BC9399C10E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>793AC670-FFA9-9309-9B3B-F534A23B8E65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
